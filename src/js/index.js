@@ -30,4 +30,15 @@ function mostrarMaisProjetos() {
 		projetosInativos.classList.add('ativo')
 	})
 }
+
+function exibirInformacoes() {
+  const nome = document.getElementById("nome").value;
+  const endereco = document.getElementById("endereco").value;
+}
  
+function mostarContato(){
+  contatoInativos.forEach(contatoEscondido =>{
+    
+contatoEscondido.classList('.ativo')
+  })
+}
